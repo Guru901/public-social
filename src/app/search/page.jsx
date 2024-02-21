@@ -46,7 +46,11 @@ const Search = () => {
               <div className="card-body flex flex-row p-4 gap-8">
                 {user.avatar ? (
                   <div className="h-16 w-16 rounded-full overflow-hidden">
-                    <img src={user.avatar} alt="" />
+                    <img
+                      src={user.avatar}
+                      alt=""
+                      className="w-full h-full object-cover"
+                    />
                   </div>
                 ) : (
                   <div className="h-16 w-16 rounded-full bg-white"></div>
