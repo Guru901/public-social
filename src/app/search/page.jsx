@@ -32,11 +32,11 @@ const Search = () => {
       <Nav />
       <div className="max-w-96 flex flex-col items-center py-5 gap-2">
         <h1 className="w-full flex self-start text-xl">Search</h1>
-        <div className="w-screen flex justify-center ">
+        <div className="w-screen flex justify-center mt-4">
           <input
             type="text"
             placeholder="Type here"
-            className="input input-bordered w-full max-w-xs"
+            className="input input-bordered w-full max-w-99"
             onChange={(e) => setSearch(e.target.value)}
           />
         </div>
